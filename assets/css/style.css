@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #topbar .contact-info i {
   font-style: normal;
-  color: #5ec6cd;     /* This affects the Phone and Mail icon color at very top */
+  color: #ffffff;     /* This affects the Phone and Mail icon color at very top */
 }
 #topbar .contact-info i span {
   padding-left: 5px;
