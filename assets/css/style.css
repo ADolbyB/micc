@@ -872,7 +872,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Specials
+# Specials (HISTORY)
 --------------------------------------------------------------*/
 .specials {
   overflow: hidden;
@@ -909,9 +909,11 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
+  margin-top: 20px; /* Fix mobile layout for History */
   color: #fff;
 }
 .specials .details p {
+  margin-top: 20px; /* Fix mobile layout for History */
   color: #aaaaaa;
 }
 .specials .details p:last-child {
