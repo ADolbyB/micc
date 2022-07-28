@@ -1389,9 +1389,9 @@ section {
   font-size: 14px;
 }
 #footer .footer-top {
-  background: #0c0b09;
-  border-top: 1px solid #37332a;
-  border-bottom: 1px solid #28251f;
+  background: #0f0f0cea;
+  border-top: 2px solid #37332a;
+  border-bottom: 2px solid #28251f;
   padding: 60px 0 30px 0;
 }
 #footer .footer-top .footer-info {
