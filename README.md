@@ -1,6 +1,9 @@
 
-<p style="text-align: center;">![GitHub repo size](https://img.shields.io/github/repo-size/AdolbyB/micc?label=Repo%20Size&logo=GitHub)</p>
+<div align="center">
 
+    <a href="">![GitHub repo size](https://img.shields.io/github/repo-size/AdolbyB/micc?label=Repo%20Size&logo=GitHub)</a>
+
+</div>
 
 ## Welcome to GitHub Pages
 
