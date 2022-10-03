@@ -1,4 +1,6 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/AdolbyB/micc?label=Repo%20Size&logo=GitHub)
+
+<p style="text-align: center;">![GitHub repo size](https://img.shields.io/github/repo-size/AdolbyB/micc?label=Repo%20Size&logo=GitHub)</p>
+
 
 ## Welcome to GitHub Pages
 
