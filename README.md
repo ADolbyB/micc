@@ -1,3 +1,5 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/AdolbyB/micc?label=Repo%20Size&logo=GitHub)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ADolbyB/adolbyb.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
