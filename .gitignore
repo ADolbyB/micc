@@ -1,0 +1,4 @@
+### GitIgnore for MICC ###
+
+# Local .vscode directory and all files
+**/.vscode/*
