@@ -27,6 +27,10 @@
     min-height: 100vh;
 }
 
+.modal-content button {
+    font-size: 18px;
+}
+
 .modal-content h2,
 .modal-content h3,
 .modal-content h4,
