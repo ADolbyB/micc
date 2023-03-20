@@ -1,0 +1,43 @@
+/* Custom CSS for Popup Modal */
+
+/* Add margin to the top for vertical positioning */
+.modal {
+    margin-top: 110px;
+}
+
+.modal-content {
+    background-color: #84cccf;
+    margin: auto;  /* Center the modal vertically */
+    border: 10px solid #045763; /* replace #333 with the desired color */
+    border-radius: 25px; /* adjust the value to change the radius of the corners */
+    /* background-image: url(../img/jesus-christ-field-sunrise.jpg); 
+    background-size: cover; */
+}
+
+/* Set the width and height of the modal */
+.modal-dialog {
+    max-width: 700px; /* change the width as desired */
+}
+  
+/* Center the modal horizontally */
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.modal-content h1 h2 h3 h4 h5 h6 p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+}
+
+.modal-content h2 {
+    color: #000000;
+}
+
+.modal-content h3 {
+    color: #2e471e;
+}
+
+.modal-content h4 {
+    color: #ff0000; /* change the color as desired */
+}
