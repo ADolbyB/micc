@@ -5,41 +5,42 @@
     margin-top: 110px;
 }
 
-.modal-content {
-    margin: auto;       /* Center the modal vertically */
-    /* background-color: #a3dde2; */
-    background-image: linear-gradient(to bottom right, #0a82e4, #02ae58);
-    border: 4px solid #30cde5;
-    border-radius: 15px;
-    /* background-image: url(../img/jesus-christ-field-sunrise.jpg); 
-    background-size: cover; */
+.modal-dialog { /* Modal Width */
+    max-width: 600px;
 }
 
-/* Set the width and height of the modal */
-.modal-dialog {
-    max-width: 720px; /* change the width as desired */
-}
-  
-/* Center the modal horizontally */
-.modal-dialog-centered {
+.modal-dialog-centered { /* Center modal horizontally */
     display: flex;
     align-items: center;
     min-height: 100vh;
 }
 
-.modal-content button {
-    font-size: 18px;
+.modal-content {
+    margin: auto;       /* Center the modal vertically */
+    background-image: linear-gradient(to bottom right, #007de4, #14af62);
+    border: 4px solid #30cde5;
+    border-radius: 15px;
+
+    /* background-image: url(../img/jesus-christ-field-sunrise.jpg); 
+       background-size: cover; */
 }
 
 .modal-content h2,
 .modal-content h3,
 .modal-content h4,
-.modal-content button {
+.modal-content h5 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    color: #18293f;
 }
 
-.modal-content h2,
-.modal-content h3,
-.modal-content h4 {
+.modal-content button {
+    border:1px solid black;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    color: #283d71;
+}
+
+.modal-content button:hover {
     color: #18293f;
 }
