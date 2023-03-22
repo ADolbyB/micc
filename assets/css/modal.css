@@ -2,11 +2,11 @@
 
 /* Add margin to the top for vertical positioning */
 .modal {
-    margin-top: 90px;
+    margin-top: 10px;
 }
 
 .modal-dialog { /* Modal Width */
-    max-width: 450px;
+    max-width: 375px;
 }
 
 .modal-dialog-centered { /* Center modal horizontally */
@@ -22,8 +22,8 @@
     border-radius: 15px;
 }
 
-.modal-content h2,
-.modal-content h4 {
+.modal-content h3,
+.modal-content h5 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
     color: #18293f;
 }
@@ -37,7 +37,7 @@
 }
 
 .modal-content button:hover {
-    color: #6699f7;
+    color: #6471b7;
 }
 
 .modal-body {
