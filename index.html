@@ -30,9 +30,41 @@
   <!-- Main CSS File -->
   <link href="./assets/css/style.css" rel="stylesheet">
 
+  <!-- Modal CSS -->
+  <link href="./assets/css/modal.css" rel="stylesheet">
+
 </head>
 
 <body>
+  <!-- ======= Popup Modal =======-->
+  <div class="modal show" data-backdrop="static" id="miccModal" data-aos="slide-up" data-aos-delay="250">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header justify-content-center">
+          <h2 class="modal-title"><i class="bi bi-calendar3"></i>&nbsp;&nbsp;Easter Mass Schedule:</h2>
+        </div>
+        <div class="modal-body">
+          <h4><i class="bi bi-bookmark-plus"></i><strong>&nbsp;Palm Sunday, 4/2:<br>
+            8:00am, 10:00am, 12:00pm<br>En Espa&ntilde;ol: 5:30pm</strong></h4>
+          <h4><i class="bi bi-bookmark-plus"></i><strong>&nbsp;Holy Thursday, 4/6: 7:00pm</strong></h4>
+          <h4><i class="bi bi-bookmark-plus"></i><strong>&nbsp;Good Friday, 4/7: 3:00pm</strong></h4>
+          <h4><i class="bi bi-bookmark-plus"></i><strong>&nbsp;Easter Saturday, 4/8:<br>7:00pm</strong></h4>
+          <h4><i class="bi bi-bookmark-plus"></i></i><strong>&nbsp;Easter Sunday, 4/9:<br>
+            8:00am, 10:00am, 12:00pm<br>En Espa&ntilde;ol: 5:30pm</strong></h4>
+          <h4><i class="bi bi-bookmarks"></i><strong>&nbsp;Also See Our Special Events:</strong></h4>
+            <button type="button" onclick="window.location.href='#events';" class="btn btn-info waves-effect" data-bs-dismiss="modal">
+              <i class="bi bi-star">&nbsp;&nbsp;</i><strong>Go To Events</strong>
+            </button>
+        </div>
+        <div class="modal-footer justify-content-center">
+          <h4><strong>Thanks For Visiting!</strong>&nbsp;&nbsp;</h4>
+          <button type="button" class="btn btn-info waves-effect" data-bs-dismiss="modal">
+            <i class="bi bi-x-circle"></i>&nbsp;&nbsp;Close&nbsp;
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-flex align-items-center fixed-top">
@@ -827,10 +859,15 @@
   <script src="./assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="./assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="./assets/vendor/php-email-form/validate.js"></script> Not Needed -->
 
   <!-- Template Main JS File -->
   <script src="./assets/js/main.js"></script>
+
+  <!-- JQuery for Popup Modal -->
+  <!-- Comment Out These 2 Lines To Deactivate Popup Modal -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="./assets/js/modal.js"></script>
 
 </body>
 
