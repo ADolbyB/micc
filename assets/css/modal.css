@@ -58,7 +58,7 @@
       max-width: 525px;
       margin: auto;
       padding: 10px;
-      text-align: left;
+      text-align: center;       /* Text Alignment in Modal Body */
     }
 }
   
