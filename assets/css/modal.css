@@ -53,9 +53,13 @@
     padding-right: 40px;
 }
 
+.padding {
+    padding: 5px;
+}
+
 @media (min-width: 991px) { /* Widescreen displays */
     #miccModal .modal-dialog {
-      max-width: 525px;
+      max-width: 475px;         /* Modal Width */
       margin: auto;
       padding: 10px;
       text-align: center;       /* Text Alignment in Modal Body */
